@@ -7,6 +7,9 @@ input.addEventListener('keydown', e => console.log(e.which))
 let divs = document.querySelectorAll('div')
 
 input.addEventListener('keydown', (event) => {
+  if (event.which === 71){
+    event.preventDefault()
+  }
   console.log(event)
 })
 
