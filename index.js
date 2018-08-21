@@ -5,4 +5,6 @@ main.addEventListener('click', (event) => {
   alert('Nice click!')
 })
 
-paragraph.addEventListener()
+paragraph.addEventListener("click", (event) => {
+  alert("You clicked the p!!!")
+})
