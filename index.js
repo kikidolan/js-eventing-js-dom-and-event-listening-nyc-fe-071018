@@ -7,6 +7,10 @@ function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + 'bubbled')
 }
 
+for (div of divs) {
+  div.addEventListening('click', bubble)
+}
+
 main.addEventListener('click', (event) => {
   alert('Nice click!')
 })
