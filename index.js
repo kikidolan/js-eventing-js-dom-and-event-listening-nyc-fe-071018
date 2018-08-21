@@ -4,3 +4,5 @@ const paragraph = document.querySelector('p')
 main.addEventListener('click', (event) => {
   alert('Nice click!')
 })
+
+paragraph.addEventListener()
