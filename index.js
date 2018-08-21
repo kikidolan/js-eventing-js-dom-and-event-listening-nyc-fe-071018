@@ -1,7 +1,14 @@
 const main = document.querySelector('#main')
 const paragraph = document.querySelector('p')
 
+const input = document.querySelector('input')
+input.addEventListener('keydown', e => console.log(e.which))
+
 let divs = document.querySelectorAll('div')
+
+input.addEventListener('keydown', (event) => {
+  console.log(event)
+})
 
 function bubble(event) {
   console.log(this.firstChild.nodeValue.trim() + 'bubbled')
